@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+table{
+    width: 80%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+}
+th{
+    background-color: pink;
+    color: white;
+    text-align: center;
+}
+td{
+    padding: 5px;
+    text-align: center;
+    border: 3px solid pink;
+}
+tr:nth-child(odd){
+    background-color: plum;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.descripcion{
+    width: 40%;
+}
